@@ -1,7 +1,7 @@
 import CONFIG from "../app-config.js";
 
 const COMFIG_OPEN = CONFIG?.openApp;
-
+git remote add origin git@github.com:ljm556-max/vue-Prejects-one.git
 export default function(){
 	//#ifdef H5
 	if(!COMFIG_OPEN) return;
